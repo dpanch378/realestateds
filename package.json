@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "postinstall": "npx shadcn-ui@latest init -y && npx shadcn-ui@latest add card button select"
   },
   "dependencies": {
     "next": "latest",
@@ -14,6 +15,7 @@
     "recharts": "^2.3.0",
     "@shadcn/ui": "latest"
   }
+<<<<<<< Updated upstream
 }
 {
   "scripts": {
@@ -22,4 +24,6 @@
     "start": "next start",
     "postinstall": "npx shadcn-ui@latest init -y && npx shadcn-ui@latest add card button select"
   }
+=======
+>>>>>>> Stashed changes
 }
