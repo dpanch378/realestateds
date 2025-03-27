@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { LineChart, Line, BarChart, Bar, PieChart, Pie, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer } from "recharts";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Select, SelectItem, SelectContent, SelectTrigger } from "@/components/ui/select";
+import { Card, CardContent } from "../components/ui/card";
+import { Button } from "../components/ui/button";
+import { Select, SelectItem, SelectContent, SelectTrigger } from "../components/ui/select";
 
 const RealEstateDashboard = () => {
     const [data, setData] = useState([]);
