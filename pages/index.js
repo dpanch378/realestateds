@@ -23,7 +23,7 @@ const RealEstateDashboard = () => {
     return (
         <div className="p-6 grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="flex gap-4 mb-4">
-                <Select value={region} onChange={e => setRegion(e.target.value)}>
+                <Select value={region} onValueChange={setRegion}>
                     <SelectTrigger>Choose Region</SelectTrigger>
                     <SelectContent>
                         <SelectItem value="All">All Regions</SelectItem>
@@ -31,7 +31,7 @@ const RealEstateDashboard = () => {
                         <SelectItem value="Manchester">Manchester</SelectItem>
                     </SelectContent>
                 </Select>
-                <Select value={propertyType} onChange={e => setPropertyType(e.target.value)}>
+                <Select value={propertyType} onValueChange={setPropertyType}>
                     <SelectTrigger>Choose Property Type</SelectTrigger>
                     <SelectContent>
                         <SelectItem value="All">All Types</SelectItem>
